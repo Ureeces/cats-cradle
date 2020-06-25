@@ -1,9 +1,6 @@
-let challenge = 1;
-
 // Challenge 0
-function printChallengeHead() {
-    console.log("######### Challenge " + challenge  + " #########");
-    challenge++;
+function printChallengeHead(n) {
+    console.log(`######### Challenge ${n} #########`);
 }
 
 // Challenge 1
@@ -107,23 +104,23 @@ function firstIndexOfUV2(word) {
 }
 
 // Challenges
-printChallengeHead();
+printChallengeHead(1);
 printVowels("Regular expression are for term 2.");
 
-printChallengeHead();
+printChallengeHead(2);
 print5Vowels("Regular expression are for term 2.");
 
-printChallengeHead();
+printChallengeHead(3);
 everyThird("I am the alfalfa and the omelette.");
 
-printChallengeHead();
+printChallengeHead(4);
 print4Chars("Oh hi, I didn't see you there. Welcome.", 36);
 
-printChallengeHead();
+printChallengeHead(5);
 printUIndexes("You picked the wrong house, bub.");
 
-printChallengeHead();
+printChallengeHead(6);
 firstIndexOfU("You picked the wrong house, bub.");
 
-printChallengeHead();
+printChallengeHead(7);
 firstIndexOfUV2("I'm Canadian.");
